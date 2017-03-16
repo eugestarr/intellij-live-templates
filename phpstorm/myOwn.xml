@@ -1,0 +1,30 @@
+<templateSet group="myOwn">
+  <template name="php" value="&lt;?php $END$ ?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="gii" value="'gii'=&gt;'gii',&#10;'gii/&lt;controller:\w+&gt;'=&gt;'gii/&lt;controller&gt;',&#10;'gii/&lt;controller:\w+&gt;/&lt;action:\w+&gt;'=&gt;'gii/&lt;controller&gt;/&lt;action&gt;'," toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="phpdoc" value="&lt;?php &#10;&#10; /**&#10;  * $END$&#10;  */ &#10;&#10;?&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="yii set flash" value="Yii::app()-&gt;user-&gt;setFlash('error', '$END$');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="edm-table" value="&lt;table width=&quot;100%&quot; border=&quot;0&quot; align=&quot;center&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&#10;    &lt;tr&gt;&#10;        &lt;td&gt;&lt;td&gt;&#10;    &lt;/tr&gt;&#10;&lt;/table&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

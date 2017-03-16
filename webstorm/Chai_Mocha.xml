@@ -1,0 +1,27 @@
+<templateSet group="Chai/Mocha">
+  <template name="desc" value="describe(&quot;$END$&quot;, function(){&#10;    &#10;});" description="describe statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="descit" value="describe(&quot;$END$&quot;, function() {&#10;    it(&quot;should exist&quot;,function() {&#10;        &#10;    });&#10;});" description="describe it statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it(&quot;$END$&quot;, function() {&#10;    &#10;});" description="it statement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tot" value=".to.be.true;" description="to be true chain" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="tof" value=".to.be.false;" description="to be false chain" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
